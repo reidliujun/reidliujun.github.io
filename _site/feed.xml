@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jun&#39;s Blog</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://http://reidliujun.github.io/</link>
+    <atom:link href="http://http://reidliujun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Jan 2016 20:17:38 +0200</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 20:17:38 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>My Second Blog</title>
+        <description>&lt;h1 id=&quot;omniata-acquirer&quot;&gt;omniata-acquirer&lt;/h1&gt;
+
+&lt;p&gt;This is the repository project for Omniata Acquirer usage, which includes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data pulling from multiple ad networks.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Backend rewrite for the acquisition events from attribution partner.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some scripts for the server side automation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Notes: this project will be automatically deployed to CP with bamboo when push to master branch.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details-of-ad-networks-api&quot;&gt;Technical details of ad networks API.&lt;/h2&gt;
+
+&lt;h4 id=&quot;twitter&quot;&gt;Twitter&lt;/h4&gt;
+
+&lt;p&gt;Using Twitter [Ads API] (https://dev.twitter.com/ads/overview).&lt;/p&gt;
+
+&lt;p&gt;The Metrics and segmentation are defined &lt;a href=&quot;https://dev.twitter.com/ads/analytics/metrics-and-segmentation&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gem Library &lt;a href=&quot;https://github.com/twitterdev/twitter-ruby-ads-sdk&quot;&gt;twitter-ads&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ec2-52-7-0-63.compute-1.amazonaws.com:4000&quot;&gt;Log in here&lt;/a&gt; to get the access token and access secret. The server client repo is &lt;a href=&quot;https://github.com/Omniata/omniata-auth-client&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check the Omniata &lt;a href=&quot;https://apps.twitter.com/app/9001254/show&quot;&gt;Twitter APP&lt;/a&gt; to get the consumer key and consumer secret, the app is now with only the Developer level with maximum 5 access tokens supported, and need to apply for the Basic and Standard level in the future.&lt;/p&gt;
+
+&lt;h4 id=&quot;facebook&quot;&gt;Facebook&lt;/h4&gt;
+
+&lt;p&gt;Using Facebook &lt;a href=&quot;https://developers.facebook.com/docs/marketing-api/insights/v2.5&quot;&gt;ads insight API&lt;/a&gt; version 2.5.&lt;/p&gt;
+
+&lt;p&gt;Access Token can be got from &lt;a href=&quot;http://ec2-52-7-0-63.compute-1.amazonaws.com:3000&quot;&gt;facebook login&lt;/a&gt;. It is also the same git repo as Twitter.&lt;/p&gt;
+
+&lt;p&gt;The Facebook APP can be viewed &lt;a href=&quot;https://developers.facebook.com/apps/909744872381000/dashboard/&quot;&gt;here&lt;/a&gt;, it is already with the standard access level with unlimited access token.&lt;/p&gt;
+
+&lt;p&gt;Gem library &lt;a href=&quot;https://github.com/arsduo/koala&quot;&gt;koala&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 23 Jan 2016 20:13:21 +0200</pubDate>
+        <link>http://http://reidliujun.github.io/2016/01/23/my-second-blog.html</link>
+        <guid isPermaLink="true">http://http://reidliujun.github.io/2016/01/23/my-second-blog.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My First Post</title>
+        <description>
+&lt;p&gt;My Logo: 
+&lt;img src=&quot;http://vignette3.wikia.nocookie.net/pokemon/images/1/16/025Pikachu_OS_anime_10.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 23 Jan 2016 19:52:55 +0200</pubDate>
+        <link>http://http://reidliujun.github.io/2016/01/23/my-first-post.html</link>
+        <guid isPermaLink="true">http://http://reidliujun.github.io/2016/01/23/my-first-post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
